@@ -1,0 +1,86 @@
+body {
+    background-color: #ffffff;
+    /* height:vh; */
+    overflow-y: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 18px;
+    padding: 140px;
+    height: 20vh;
+
+}
+
+/* .container :nth-child(odd){
+        background-color: darkgreen;
+    }
+    .container :nth-child(even){
+        background-color: aqua;
+    } */
+.big,
+.bige,
+.bigg {
+    background-color: #2b2e56;
+}
+
+.rd {
+    background-color: #2b2e56;
+    grid-column: 2/4;
+}
+
+.yl {
+    background-color: #2b2e56;
+}
+
+div {
+    /* padding: 20px; */
+    padding-top: 150px;
+    /* height: 300px;
+        width: 300px; */
+
+}
+
+.big {
+    grid-column: 1/4;
+}
+
+.bige {
+    grid-row: 2/4;
+}
+
+.bigg {
+    grid-column: 1/4;
+    grid-row: 7/8;
+}
+
+.yl {
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+.rd1 {
+    background-color: #2b2e56;
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+
+/* .big{
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 1;
+       grid-row-end: 4;
+    }
+    .bigg{
+        grid-column-start:4;
+        grid-column-end: 5 ;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .bige{
+        grid-column-start:2;
+        grid-column-end: 4 ;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    } */
