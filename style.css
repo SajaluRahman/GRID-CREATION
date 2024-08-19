@@ -13,12 +13,7 @@ body {
 
 }
 
-/* .container :nth-child(odd){
-        background-color: darkgreen;
-    }
-    .container :nth-child(even){
-        background-color: aqua;
-    } */
+
 .big,
 .bige,
 .bigg {
@@ -35,10 +30,9 @@ body {
 }
 
 div {
-    /* padding: 20px; */
+    
     padding-top: 150px;
-    /* height: 300px;
-        width: 300px; */
+  
 
 }
 
@@ -66,21 +60,3 @@ div {
     grid-column: 2/4;
 }
 
-/* .big{
-       grid-column-start: 1;
-       grid-column-end: 2;
-       grid-row-start: 1;
-       grid-row-end: 4;
-    }
-    .bigg{
-        grid-column-start:4;
-        grid-column-end: 5 ;
-        grid-row-start: 2;
-        grid-row-end: 4;
-    }
-    .bige{
-        grid-column-start:2;
-        grid-column-end: 4 ;
-        grid-row-start: 1;
-        grid-row-end: 1;
-    } */
